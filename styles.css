@@ -1,7 +1,11 @@
 html
 {
     background-color: white;
-    color : #F0F0F0;
 }
 
-
+#conteneur
+{
+    display: flex;
+    flex-flow: row-reverse;
+    flex-wrap : wrap-reverse;
+}

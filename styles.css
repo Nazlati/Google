@@ -3,9 +3,29 @@ html
     background-color: white;
 }
 
-#conteneur
+.container
 {
     display: flex;
-    flex-flow: row-reverse;
-    flex-wrap : wrap-reverse;
+    justify-content: flex-end;
+}
+
+.Gmail, .Images, .Applications, .Connexion {
+  height: $height;
+  min-width: $minWidth;
+  margin-right: 10px;
+}
+
+
+.Connexion {
+    background:#1E90FF;
+    color:white;
+}
+
+.Google {
+   display: flex;
+   width: 400px;
+   height: 400px;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
 }

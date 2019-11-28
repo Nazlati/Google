@@ -10,22 +10,123 @@ html
 }
 
 .Gmail, .Images, .Applications, .Connexion {
-  height: $height;
-  min-width: $minWidth;
-  margin-right: 10px;
+   height: height;
+   margin-right: 10px;
+   font-family: Arial;
+   font-size: small;
+
 }
 
+.Gmail, .Images
+{
+   color: grey;
+   margin-top: 10px;
+
+}
+
+.Application
+{
+   margin-top: -1px;
+   width: 38px;
+   height: 38px;
+}
 
 .Connexion {
     background:#1E90FF;
-    color:white;
+   color:white; 
+   border-color: #1E90FF;
+    margin-top: 10px
+
+
+
 }
 
-.Google {
+.loupe
+{
+   width: 12px;
+   height: 12px;
+   opacity: 10
+}
+
+.google {
    display: flex;
-   width: 400px;
-   height: 400px;
-   text-align: center;
+   width: 200px;
+   height: 100px;
    margin-left: auto;
    margin-right: auto;
+   margin-top: 100px;
+   flex-direction: center;
+   align-self: center; 
+   align-items: center;
+   justify-content: center;
+
+}
+
+.nav
+{
+    display: flex;
+    width: 450px;
+    border: 1px ridge #FEFEFE;
+    padding:5px;
+  border-bottom-left-radius : 100px;
+  border-bottom-right-radius : 100px;
+  border-top-left-radius : 100px;
+  border-top-right-radius : 100px;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: left;
+   
+}
+
+.section1,
+{
+    display: inline-block;    
+    border: 1px;
+    vertical-align: left;
+}
+
+.Fr
+{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 270px;
+  border: 1px ridge #FEFEFE;
+  padding:5px;
+  background: #EFEFEF;
+
+}
+
+.gr
+{
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  margin-top: 20px;
+
+}
+
+.chance
+{
+  display: flex;
+  justify-content: center;
+  border: 1px ridge #FEFEFE;
+  padding:5px;
+  background: #EFEFEF
+
+}
+
+.recherche
+{
+  border: 1px ridge #FEFEFE;
+  padding:5px;
+  background: #EFEFEF
+}
+
+.fin
+{
+  display: flex;
+  justify-content: flex-end;
+  text-align: left;
+  margin-top: -60px;
 }
